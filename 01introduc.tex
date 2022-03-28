@@ -1,0 +1,174 @@
+% Prof. Dr. Ausberto S. Castro Vera
+% UENF - CCT - LCMAT - Curso de Ci\^{e}ncia da Computa\c{c}\~{a}o
+% Campos, RJ,  2019
+% Disciplina: An\'{a}lise e Projeto de Sistemas
+% Aluno: Luis Fernando Peixoto Cabral
+
+
+\chapterimage{sistemas.png} % Table of contents heading image
+\chapter{ Introdu\c{c}\~{a}o}
+
+O sistema a ser desenvolvido nos decorreres dos capítulos é pensado em um hospital, na qual trabalham 117 funcionários de diferentes setores. O sistema terá dois pilares prioritários um deles, é facilitar a comunicação entre os setores do hospital, na qual irar permitir o setor administrativo gerenciar as informações, permitindo tomadas de decisões mais eficazes. O segundo Pilar é oferecer ao paciente diferentes formas de atendimento, por aplicativo, site, ligação telefônica e diretamente no próprio hospital
+
+ \section{Descri\c{c}\~{a}o do Sistema Computacional a desenvolver}
+O sistema será composto por 5 subsistema, na qual cada subsistema será destinado para um setor do hospital.
+        \subsection{Sistema administrativo}
+ O sistema administrativo deve permitir ter acesso a todas informações dos setores do hospital, para que possa ser um meio adequado de administrar e gerenciar os recursos, facilitando assim o poder de tomar decisões rápidas e eficientes no dia a dia.
+
+        \subsection{Sistema de atendimento}
+O Setor de atendimento é responsável pela marcação de consultas e exames. Tem   responsabilidade também de atender os chamados de emergências, na qual é imediatamente encaminhado para o sistema de pronto-socorro. Os atendimentos também devem ser feitos via aplicativo, via site, via ligação telefonica e diretamente na recepção do hospital. O sistema terá a função de se trabalhar com horários marcados, sendo assim o paciente irá ao hospital apenas no horário combinado, eliminando assim as filas de espera.
+        \subsection{Sistema de farmácia}
+Através do sistema, o médico responsável pelo paciente prescreve o medicamento, restando o paciente pegar na própria farmácia do hospital.
+O sistema deve ter um controle de estoque para os medicamentos, para que quando necessário, através do próprio sistema seja feita a solicitação ao setor administrativo a reposição de um determinado medicamento.
+
+
+        \subsection{Sistema de Pronto-Socorro}
+Após a solicitação de emergência feita pelo setor de atendimento, o sistema tem a função de repassar a solicitação para a ambulância e através de um gps o sistema deve calcular a rota do chamado.
+        \subsection{Sistema de RH}
+O sistema permiti ter uma visão geral de todos os funcionários do hospital
+ \section{Identificando as componentes do meu sistema}
+A seguir será apresentado os equipamentos essenciais para o funcionamento do sistema, além de mostrar como será feito a logística de treinamento para os funcionários que usufruirão do novo sistema.
+     \subsection{Componente: Hardware}
+
+\begin{itemize}
+\item Monitores
+  \subitem -  para o setor médico
+  \subitem - para o setor administrativo
+  \subitem -  para o setor de atendimento
+  \subitem -  para o setor de RH
+  \subitem -  para o setor de Pronto-Socorro
+  \item  Microcomputadores processador 3.0Ghz, HD de 500Gb e 4Gb de memória Ram
+  \subitem -  para o setor médico
+  \subitem -  para o setor administrativo
+  \subitem -  para o setor de atendimento
+  \subitem -  para o setor de RH
+  \subitem -  para o setor de Pronto-Socorro
+  \item  impressoras
+   \subitem - para o setor médico
+    \item  impressoras multifuncional
+  \subitem -  para o setor administrativo
+  \subitem -  para o setor de atendimento
+  \subitem -  para o setor de RH
+  \item  Smart TV de 40 polegadas
+    \subitem para o setor de Pronto-Socorro
+  \item  GPS
+  \item  Roteador Wireless
+  \item  Sevidor
+  \item  switchs
+
+\end{itemize}
+
+
+
+     \subsection{Componente: Software}
+\begin{itemize}
+\item Sistema
+  \subitem - Sistema Administrativo
+  \subsubitem * Gerenciamento de Finanças
+  \subitem - Sistema Medico
+  \subsubitem * Gerenciamento de pacientes
+  \subitem - Sistema de farmácia
+  \subsubitem * Controle de estoque
+  \subitem - Sistema de RH
+  \subsubitem * Gerenciamento de Funcionários
+   \subitem - Sistema de Pronto-Socorro
+  \subsubitem * Software de gerador de rota
+
+  \item Sistemas operacionais proprietario
+  \item Pacotes Office
+
+
+\end{itemize}
+
+
+     \subsection{Componente: Pessoas}
+
+
+\begin{itemize}
+\item Programadores
+\item Analista de Sistema
+\item Chefe do Projeto
+\item Arquitetos de software
+\item Projetista
+\item Avaliadores de Qualidade
+  \item   Médicos
+  \item  Funcionários  da administração
+  \item   Atendentes
+  \item  Socorrista
+  \item   Funcionários  do RH
+  \item Funcionários de manutenção
+  \item Pacientes
+  \end{itemize}
+
+
+
+     \subsection{Componente: Banco de Dados}
+\begin{itemize}
+
+  \item Pacientes
+  \item Finanças
+  \item Funcionarios
+  \item Resultado de Exames
+  \item Estoque de medicamento
+  \end{itemize}
+
+
+     \subsection{Componente: Documentos }
+  \begin{itemize}
+  \item Relatórios
+  \item Resultados de exames
+  \item Atestado medico
+  \item Prontuário médico
+  \item Notas fiscais
+   \item Manuais do sistema
+  \item Diagramas UML
+  \item Orçamentos
+\end{itemize}
+
+     \subsection{Componente: Metodologias ou Procedimentos}
+\begin{itemize}
+\item Levantamento de requisitos
+  \subitem -Listagem de todos os equipamentos que serão necessários para o funcionamento do sistema
+
+ \item Analise
+  \subitem -Construção do modelo de representação do desenvolvimento do sistema
+   \subitem -Estudo da interação dos componentes com o sistema
+    \subitem  -Estudo detalhado dos requisitos
+
+  \item Implementação
+  \subitem -Codificação
+   \subitem -Criação de aplicativo e website
+    \subitem  -Criação do Banco de Dados
+     \subitem -Montagem do servidor
+   \item Testes
+  \subitem -Atividade de teste para verificação de falhas no sistema
+   \subitem -Verificação de segurança
+
+    \item Treinamento dos Funcionários
+  \subitem -O treinamento será realizado por setores do hospital
+   \subitem -Os Setores de RH e administrativo terão uma única aula sobre o sistema, em dias diferentes com todos os funcionários de um determinado setor.
+   \subitem -O treinamento dos setores de Atendimento, Medico e de Pronto-socorro, ocorrerão individualmente com cada funcionário em um horário de folga.
+
+   \item Implantação
+  \subitem -Sistema colocado no Ambiente de usuário
+   \subitem -Manual do sistema realizado
+  \subitem -Realização da importação dos dados
+   \subitem -A implantação do sistema deverá ser feita em gradualmente sem atrapalhar o funcionamento do hospital
+  \end{itemize}
+     \subsection{Componente: Mobilidade}
+ \begin{itemize}
+ \item Smartphones para Funcionários
+   \item Ligação telefônica
+  \item Website
+  \item Aplicativo
+  \end{itemize}
+
+     \subsection{Componente: Nuvem}
+ \begin{itemize}
+ \item Backup de dados via nuvem
+   \item Hospedagem
+  \subitem -Website
+  \subitem -Aplicativo
+
+\end{itemize}
+
